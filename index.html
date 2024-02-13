@@ -1,16 +1,188 @@
 <!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="dist/style.css">
-  <title>SCSS Project</title>
-</head>
-<body>
-  <header class="header">
-    <h1>Welcome to my SCSS Project</h1>
-  </header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover premium skincare products for every skin type. Subscribe for exclusive offers and visit our outlet in Jeddah"
+    />
+    <!-- <link rel="stylesheet" href="src/styles/style.scss" /> -->
+
+    <title>Enas's Cosmetics</title>
+    <div>
+      <img src="images/Logo.png" alt="Beauty Cosmetics Logo" width="200px" />
+      <nav>
+        <ul>
+          <li style="display: inline; font-size: 20px">
+            <a href="#products-section">Products</a>
+          </li>
+          <li style="display: inline; font-size: 20px">
+            <a href="#feedback-section">Customers' Feedback</a>
+          </li>
+          <li style="display: inline; font-size: 20px">
+            <a href="#subscription-section">subscription</a>
+          </li>
+          <li style="display: inline; font-size: 20px">
+            <a href="#location-section">Visit Us</a>
+          </li>
+          <li style="display: inline; font-size: 20px">
+            <a href="#contacts-section">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </head>
+  <body>
+    <div id="hero-section" style="position: relative">
+      <img
+        src="images/hero_image.png"
+        alt="Hero Image"
+        style="width: 100%; height: auto"
+      />
+      <div
+        style="
+          position: absolute;
+          top: 50%;
+          left: 70%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          color: #43766c;
+        "
+      >
+        <h1>Cosmetics Skincare</h1>
+        <h2>Stay hydrated and keep it properly moisturized</h2>
+        <a href="#products-section" class="hero-btn">Buy Now</a>
+      </div>
+    </div>
+    <div id="products-section">
+      <h1>Products</h1>
+      <img
+        src="images/dry_cream.png"
+        alt="Dry cream product picture"
+        width="200px"
+        height="357px"
+      />
+      <h2>Dry Cream</h2>
+      <p>
+        Our Dry Cream for oily and combination skin delivers lightweight
+        hydration, ensuring a matte, shine-free complexion without clogging
+        pores.
+      </p>
+
+      <img
+        src="images/serum.png"
+        alt="EyeRevive Serum"
+        width="200px"
+        height="357px"
+      />
+      <h2>EyeRevive Serum</h2>
+      <p>
+        Our EyeRevive Serum targets dark circles and puffiness, refreshing and
+        revitalizing under-eye skin for a brighter, youthful look.
+      </p>
+
+      <img
+        src="images/hand_cream.png"
+        alt="EyeRevive Serum"
+        width="200px"
+        height="357px"
+      />
+      <h2>Hand Cream</h2>
+      <p>
+        Our HandCare Cream provides intensive nourishment for your hands,
+        leaving them soft, smooth, and hydrated. Formulated with deeply
+        moisturizing ingredients, it soothes dryness and restores moisture to
+        parched skin.
+      </p>
+    </div>
+
+    <div id="feedback-section">
+      <h1>Customers' Feedback</h1>
+      <p>
+        "I can't believe how soft my hands feel after using this hand cream.
+        Amazing product!"
+      </p>
+      <p>- Sarah</p>
+      <p>
+        "The Eye Serum works wonders! It has reduced my dark circles and
+        puffiness significantly."
+      </p>
+      <p>- Asalah</p>
+      <p>
+        "The hand cream has become a staple in my skincare routine. My hands
+        have never felt smoother!"
+      </p>
+      <p>- Shoug</p>
+      <p>
+        "I've struggled with oily skin for years, but this Dry Cream has been a
+        game-changer! It hydrates without leaving any greasy residue, and my
+        skin feels balanced and matte all day."
+      </p>
+      <p>- Fatimah</p>
+      <p>
+        "As someone with oily skin, finding the right moisturizer has always
+        been a struggle. But this Dry Cream has exceeded my expectations! It
+        keeps my skin hydrated without making it feel greasy."
+      </p>
+      <p>- Mohammed</p>
+    </div>
+
+    <div id="subscription-section">
+      <h1>Subscribe for Exclusive Offers & Updates!</h1>
+      <form>
+        <label for="email" id="email-label">Email</label>
+        <input
+          type="email"
+          id="email-field"
+          aria-labelledby="email-label"
+          required
+        />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <br /><br />
+    <div id="location-section">
+      <h1>Visit Us!</h1>
+      Rakha Al Islam, Al Andalus, Jeddah 23436, Kingdom of Saudi Arabia
+      <br /><br />
+      <iframe
+        title="location"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.887007266907!2d39.17059907381452!3d21.551273069630106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d087a6b04eb9%3A0x992b7a90226371dd!2sEnas%20Salon%20And%20Spa!5e0!3m2!1sen!2ssa!4v1707846776276!5m2!1sen!2ssa"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <br /><br /><br /><br />
+    <footer>
+      <p>Links</p>
+      <a href="#">Home Page</a>
+      <a href="#products-section">Our Products</a>
+      <a href="#location-section">Our Adress</a>
+      <br />
+      <div id="contacts-section">
+        <p>Contacts</p>
+        <a href="mailto:Enasmbatarfi@gmail.com">Enasmbatarfi@gmail.com</a>
+        <a href="tell:+966536513037">+966536513037</a>
+      </div>
+      <br />
+      <br />
+      <a href=""
+        ><img src="images/whatsapp.png" alt="whatsapp icon" width="20px"
+      /></a>
+
+      <a href=""
+        ><img src="images/Insta.png" alt="instagram icon" width="20px"
+      /></a>
+
+      <a href=""
+        ><img src="images/facebook.png" alt="facebook icon" width="20px"
+      /></a>
+    </footer>
+  </body>
 </html>
