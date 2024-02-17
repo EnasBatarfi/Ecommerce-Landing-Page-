@@ -43,7 +43,7 @@
   <!-- Start of the body -->
   <body>
     <!-- Start of the container -->
-    <div class="container">
+    <div class="container" role="main">
       <!-- Start of the header -->
       <header>
         <!-- website's logo -->
@@ -58,7 +58,7 @@
               <a href="#feedbacks-section">Customers' Feedback</a>
             </li>
             <li>
-              <a href="#subscription-section">subscription</a>
+              <a href="#subscription-section">Subscription</a>
             </li>
             <li>
               <a href="#address-section">Visit Us</a>
@@ -74,7 +74,7 @@
       <div id="hero-headline">
         <h1>Cosmetics Skincare</h1>
         <h2>Stay hydrated and keep it properly moisturized</h2>
-        <a href="#"
+        <a href="#" role="button" aria-label="Purchase Now"
           ><button type="button" class="button">Purchase Now</button></a
         >
       </div>
@@ -175,7 +175,7 @@
         <section id="subscription-section">
           <h1>Subscribe for Exclusive Offers & Updates!</h1>
           <form>
-            <label for="email" id="email-label"></label>
+            <label for="email" id="email-label">Email:</label>
             <input
               placeholder="Enter your email"
               type="email"
@@ -203,6 +203,7 @@
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            aria-label="Google Maps Location"
           ></iframe>
         </section>
         <!-- End address section -->
@@ -212,7 +213,7 @@
       <footer>
         <!-- Start contact section -->
         <section id="contact-section">
-          <h2>Contacts Us</h2>
+          <h2>Contact Us</h2>
           <a href="mailto:Enasmbatarfi@gmail.com">Enasmbatarfi@gmail.com</a>
           <a href="tel:+966536513037">+966536513037</a>
         </section>
@@ -227,9 +228,15 @@
         <!-- End important links division -->
         <!-- Start social media division -->
         <div id="social-media">
-          <a href="#"><i class="fab fa-whatsapp-square"></i></a>
-          <a href="#"><i class="fab fa-instagram-square"></i></a>
-          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"
+            ><i class="fab fa-whatsapp-square" aria-label="WhatsApp"></i
+          ></a>
+          <a href="#"
+            ><i class="fab fa-instagram-square" aria-label="Instagram"></i
+          ></a>
+          <a href="#"
+            ><i class="fab fa-facebook-square" aria-label="Facebook"></i
+          ></a>
         </div>
         <!-- End social media division -->
       </footer>
