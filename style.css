@@ -70,6 +70,7 @@ header nav a {
   font-family: "Playfair Display";
   font-size: 80px;
   letter-spacing: 10px;
+  margin-top: -20px;
 }
 
 #hero-headline h2 {
@@ -118,8 +119,10 @@ h1 {
   height: 450px;
   transition: background-color 0.3s ease;
 }
+
+/* Product hover to apply transition */
 .product:hover {
-  background-color: #b1aaa3; /* Change this to the color you want */
+  background-color: #b1aaa3;
 }
 
 /* Feedback container styles */
